@@ -10,7 +10,7 @@ if "retrive" not in st.session_state:
 st.sidebar.title("ABOUT")
 st.sidebar.write("Welcome to your ultimate travel companion! Our AI-powered itinerary planner takes the hassle out of trip planning. Whether you're a foodie, an adventurer our smart planner crafts itineraries that match your tastes .")
 st.header("AI Powered Itinerary Planner")
-# st.markdown(f'<div class="centered-image"><img {st.image("image.jpg", use_column_width=False, width=500)}" ></div>', unsafe_allow_html=True)
+st.markdown(f'<div class="centered-image"><img {st.image("image.jpg", use_column_width=False, width=500)}" ></div>', unsafe_allow_html=True)
 
 
 
