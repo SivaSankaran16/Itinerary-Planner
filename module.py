@@ -5,7 +5,7 @@ from langchain.prompts import ChatPromptTemplate
 import os
 from dotenv import load_dotenv
 
-CHROMA_PATH = "D:/poc/chroma"
+CHROMA_PATH = "/home/ubuntu/Itinerary-Planner/chroma"
 
 # PROMPT_TEMPLATE = """
 # role: Curlytales is a trip planning company you are their agent for helping the customers to plan trips.
